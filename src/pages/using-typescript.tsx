@@ -1,7 +1,7 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
-
+import className from "classnames-ts"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -14,8 +14,10 @@ type DataProps = {
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
-    <h1 className="text-primary underline">Gatsby supports TypeScript by default!</h1>
-    <p className="text-red-400">
+    <h1 className="text-primary underline">
+      Gatsby supports TypeScript by default!
+    </h1>
+    <p className={className({ "text-green-500 font-bold": true })}>
       This means that you can create and write <em>.ts/.tsx</em> files for your
       pages, components etc. Please note that the <em>gatsby-*.js</em> files
       (like gatsby-node.js) currently don't support TypeScript yet.
