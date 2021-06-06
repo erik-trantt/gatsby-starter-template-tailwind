@@ -103,3 +103,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Additional steps:
+
+Guide to use Typescript in Gatsby projects: [https://blog.logrocket.com/set-up-a-typescript-gatsby-app/](https://blog.logrocket.com/set-up-a-typescript-gatsby-app/)
+
+Dynamically manipulate class names as Object attributes, instead of String interpolation: [https://github.com/nok91/classnames-ts](https://github.com/nok91/classnames-ts)
